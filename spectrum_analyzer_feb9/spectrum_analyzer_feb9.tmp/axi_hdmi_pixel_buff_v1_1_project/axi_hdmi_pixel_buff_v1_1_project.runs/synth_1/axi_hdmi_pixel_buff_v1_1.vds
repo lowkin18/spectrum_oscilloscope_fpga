@@ -1,0 +1,317 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Feb 10 20:42:02 2019
+# Process ID: 2640
+# Current directory: e:/spectrum_analyzer_feb9/spectrum_analyzer_feb9.tmp/axi_hdmi_pixel_buff_v1_1_project/axi_hdmi_pixel_buff_v1_1_project.runs/synth_1
+# Command line: vivado.exe -log axi_hdmi_pixel_buff_v1_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source axi_hdmi_pixel_buff_v1_1.tcl
+# Log file: e:/spectrum_analyzer_feb9/spectrum_analyzer_feb9.tmp/axi_hdmi_pixel_buff_v1_1_project/axi_hdmi_pixel_buff_v1_1_project.runs/synth_1/axi_hdmi_pixel_buff_v1_1.vds
+# Journal file: e:/spectrum_analyzer_feb9/spectrum_analyzer_feb9.tmp/axi_hdmi_pixel_buff_v1_1_project/axi_hdmi_pixel_buff_v1_1_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source axi_hdmi_pixel_buff_v1_1.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo/axi_hdmi_pixel_buff_1.1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo/hdmi_pixel_gen_1.1_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo/test_axi_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+update_ip_catalog: Time (s): cpu = 00:00:08 ; elapsed = 00:00:32 . Memory (MB): peak = 305.121 ; gain = 56.934
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is e:/spectrum_analyzer_feb9/spectrum_analyzer_feb9.tmp/axi_hdmi_pixel_buff_v1_1_project/axi_hdmi_pixel_buff_v1_1_project.cache/ip 
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [e:/ip_repo/axi_hdmi_pixel_buff_1.1/hdl/axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [e:/ip_repo/axi_hdmi_pixel_buff_1.1/hdl/axi_hdmi_pixel_buff_v1_1.v:]
+Command: synth_design -top axi_hdmi_pixel_buff_v1_1 -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8336 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 421.695 ; gain = 102.664
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'axi_hdmi_pixel_buff_v1_1' [e:/ip_repo/axi_hdmi_pixel_buff_1.1/hdl/axi_hdmi_pixel_buff_v1_1.v:4]
+	Parameter C_HDMI_PIXEL_GEN_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_HDMI_PIXEL_GEN_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN' [e:/ip_repo/axi_hdmi_pixel_buff_1.1/hdl/axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 3 - type: integer 
+	Parameter V_front_porch bound to: 10 - type: integer 
+	Parameter V_back_porch bound to: 34 - type: integer 
+	Parameter V_sync_width bound to: 0 - type: integer 
+	Parameter V_display_pix bound to: 480 - type: integer 
+	Parameter V_t_pix bound to: 524 - type: integer 
+	Parameter H_front_porch bound to: 16 - type: integer 
+	Parameter H_back_porch bound to: 47 - type: integer 
+	Parameter H_sync_width bound to: 0 - type: integer 
+	Parameter H_display_pix bound to: 800 - type: integer 
+	Parameter H_t_pix bound to: 940 - type: integer 
+INFO: [Synth 8-226] default block is never used [e:/ip_repo/axi_hdmi_pixel_buff_1.1/hdl/axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN.v:260]
+INFO: [Synth 8-226] default block is never used [e:/ip_repo/axi_hdmi_pixel_buff_1.1/hdl/axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN.v:497]
+WARNING: [Synth 8-5788] Register CounterX_reg in module axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [e:/ip_repo/axi_hdmi_pixel_buff_1.1/hdl/axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN.v:563]
+WARNING: [Synth 8-5788] Register CounterY_reg in module axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [e:/ip_repo/axi_hdmi_pixel_buff_1.1/hdl/axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN.v:568]
+INFO: [Synth 8-6155] done synthesizing module 'axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN' (1#1) [e:/ip_repo/axi_hdmi_pixel_buff_1.1/hdl/axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'axi_hdmi_pixel_buff_v1_1' (2#1) [e:/ip_repo/axi_hdmi_pixel_buff_1.1/hdl/axi_hdmi_pixel_buff_v1_1.v:4]
+WARNING: [Synth 8-3331] design axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN has unconnected port vSync
+WARNING: [Synth 8-3331] design axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 476.816 ; gain = 157.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 476.816 ; gain = 157.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 476.816 ; gain = 157.785
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-5544] ROM "CounterX" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "CounterY" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 476.816 ; gain = 157.785
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 17    
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 16    
+	  16 Input     32 Bit        Muxes := 16    
+	   2 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 17    
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 16    
+	  16 Input     32 Bit        Muxes := 16    
+	   2 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "CounterY" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN has unconnected port vSync
+WARNING: [Synth 8-3331] design axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN has unconnected port S_AXI_ARPROT[0]
+INFO: [Synth 8-3886] merging instance 'axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN_inst/axi_rresp_reg[0]' (FDRE) to 'axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN_inst/axi_bresp_reg[0]' (FDRE) to 'axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN_inst/redHold__reg[0]' (FDR) to 'axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN_inst/redHold__reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN_inst/redHold__reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 641.801 ; gain = 322.770
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 641.801 ; gain = 322.770
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 641.801 ; gain = 322.770
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 641.801 ; gain = 322.770
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 641.801 ; gain = 322.770
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 641.801 ; gain = 322.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 641.801 ; gain = 322.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 641.801 ; gain = 322.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 641.801 ; gain = 322.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     2|
+|2     |LUT1  |     3|
+|3     |LUT2  |     5|
+|4     |LUT3  |     8|
+|5     |LUT4  |    13|
+|6     |LUT5  |     8|
+|7     |LUT6  |   207|
+|8     |MUXF7 |    64|
+|9     |MUXF8 |    32|
+|10    |FDCE  |    20|
+|11    |FDRE  |   571|
+|12    |FDSE  |     1|
+|13    |IBUF  |    53|
+|14    |OBUF  |    67|
+|15    |OBUFT |     1|
++------+------+------+
+
+Report Instance Areas: 
++------+-----------------------------------------------+----------------------------------------+------+
+|      |Instance                                       |Module                                  |Cells |
++------+-----------------------------------------------+----------------------------------------+------+
+|1     |top                                            |                                        |  1055|
+|2     |  axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN_inst |axi_hdmi_pixel_buff_v1_1_HDMI_PIXEL_GEN |   932|
++------+-----------------------------------------------+----------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 641.801 ; gain = 322.770
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 16 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 641.801 ; gain = 322.770
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 641.801 ; gain = 322.770
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 96 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 723.637 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 723.637 ; gain = 416.641
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 723.637 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'e:/spectrum_analyzer_feb9/spectrum_analyzer_feb9.tmp/axi_hdmi_pixel_buff_v1_1_project/axi_hdmi_pixel_buff_v1_1_project.runs/synth_1/axi_hdmi_pixel_buff_v1_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file axi_hdmi_pixel_buff_v1_1_utilization_synth.rpt -pb axi_hdmi_pixel_buff_v1_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 10 20:42:52 2019...

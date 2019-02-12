@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1549938072">
+  <File Type="PA-TCL" Name="spectrum_feb10_xadc_hdmi_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="spectrum_feb10_xadc_hdmi_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="spectrum_feb10_xadc_hdmi_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="spectrum_feb10_xadc_hdmi_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="spectrum_feb10_xadc_hdmi_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="spectrum_feb10_xadc_hdmi_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="spectrum_feb10_xadc_hdmi_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="spectrum_feb10_xadc_hdmi_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="spectrum_feb10_xadc_hdmi_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/spectrum_feb10_xadc_hdmi/spectrum_feb10_xadc_hdmi.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/spectrum_feb10_xadc_hdmi/hdl/spectrum_feb10_xadc_hdmi_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="spectrum_feb10_xadc_hdmi_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Zybo-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/kipke/OneDrive/Desktop/xilinx/data_files/masters/digilent-xdc-master/Zybo-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1549864011"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="spectrum_feb10_xadc_hdmi_xadc_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="spectrum_feb10_xadc_hdmi_hdmi_full_gen_1_0_0"/>
+</GenRun>

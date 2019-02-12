@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1549938073">
+  <File Type="BITSTR-BMM" Name="spectrum_feb10_xadc_hdmi_wrapper_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="spectrum_feb10_xadc_hdmi_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="spectrum_feb10_xadc_hdmi_wrapper_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="spectrum_feb10_xadc_hdmi_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="spectrum_feb10_xadc_hdmi_wrapper.tcl"/>
+  <File Type="OPT-TIMING" Name="spectrum_feb10_xadc_hdmi_wrapper_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="spectrum_feb10_xadc_hdmi_wrapper_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="spectrum_feb10_xadc_hdmi_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="spectrum_feb10_xadc_hdmi_wrapper_reports.tcl"/>
+  <File Type="OPT-DRC" Name="spectrum_feb10_xadc_hdmi_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="spectrum_feb10_xadc_hdmi_wrapper.hwdef"/>
+  <File Type="PWROPT-DCP" Name="spectrum_feb10_xadc_hdmi_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="spectrum_feb10_xadc_hdmi_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="spectrum_feb10_xadc_hdmi_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="spectrum_feb10_xadc_hdmi_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="spectrum_feb10_xadc_hdmi_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="spectrum_feb10_xadc_hdmi_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="spectrum_feb10_xadc_hdmi_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="spectrum_feb10_xadc_hdmi_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="spectrum_feb10_xadc_hdmi_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="spectrum_feb10_xadc_hdmi_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="spectrum_feb10_xadc_hdmi_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="spectrum_feb10_xadc_hdmi_wrapper.bgn"/>
+  <File Type="PLACE-TIMING" Name="spectrum_feb10_xadc_hdmi_wrapper_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="spectrum_feb10_xadc_hdmi_wrapper_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="spectrum_feb10_xadc_hdmi_wrapper.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="spectrum_feb10_xadc_hdmi_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="spectrum_feb10_xadc_hdmi_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="spectrum_feb10_xadc_hdmi_wrapper_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="spectrum_feb10_xadc_hdmi_wrapper.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="spectrum_feb10_xadc_hdmi_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="spectrum_feb10_xadc_hdmi_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="spectrum_feb10_xadc_hdmi_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="spectrum_feb10_xadc_hdmi_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="spectrum_feb10_xadc_hdmi_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="spectrum_feb10_xadc_hdmi_wrapper_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="spectrum_feb10_xadc_hdmi_wrapper.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="spectrum_feb10_xadc_hdmi_wrapper_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="spectrum_feb10_xadc_hdmi_wrapper.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="spectrum_feb10_xadc_hdmi_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="spectrum_feb10_xadc_hdmi_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="spectrum_feb10_xadc_hdmi_wrapper.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="spectrum_feb10_xadc_hdmi_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="spectrum_feb10_xadc_hdmi_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="spectrum_feb10_xadc_hdmi_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="spectrum_feb10_xadc_hdmi_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="spectrum_feb10_xadc_hdmi_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="spectrum_feb10_xadc_hdmi_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="spectrum_feb10_xadc_hdmi_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="spectrum_feb10_xadc_hdmi_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="spectrum_feb10_xadc_hdmi_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="spectrum_feb10_xadc_hdmi_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="spectrum_feb10_xadc_hdmi_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="spectrum_feb10_xadc_hdmi_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="spectrum_feb10_xadc_hdmi_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="spectrum_feb10_xadc_hdmi_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="spectrum_feb10_xadc_hdmi_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="spectrum_feb10_xadc_hdmi_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="spectrum_feb10_xadc_hdmi_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="spectrum_feb10_xadc_hdmi_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="spectrum_feb10_xadc_hdmi_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="spectrum_feb10_xadc_hdmi_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="spectrum_feb10_xadc_hdmi_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="spectrum_feb10_xadc_hdmi_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="spectrum_feb10_xadc_hdmi_wrapper.nky"/>
+  <File Type="BG-DRC" Name="spectrum_feb10_xadc_hdmi_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="spectrum_feb10_xadc_hdmi_wrapper.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/spectrum_feb10_xadc_hdmi/spectrum_feb10_xadc_hdmi.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/spectrum_feb10_xadc_hdmi/hdl/spectrum_feb10_xadc_hdmi_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="spectrum_feb10_xadc_hdmi_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Zybo-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/kipke/OneDrive/Desktop/xilinx/data_files/masters/digilent-xdc-master/Zybo-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1549864011"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="spectrum_feb10_xadc_hdmi_xadc_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="spectrum_feb10_xadc_hdmi_hdmi_full_gen_1_0_0"/>
+</GenRun>

@@ -1,0 +1,15 @@
+verilog xil_defaultlib --include "../../../../spectrum_analyzer_feb9.srcs/sources_1/bd/spectrum_feb10_xadc_hdmi/ipshared/ec67/hdl" --include "../../../../spectrum_analyzer_feb9.srcs/sources_1/bd/spectrum_feb10_xadc_hdmi/ipshared/70cf/hdl" --include "../../../../spectrum_analyzer_feb9.srcs/sources_1/bd/spectrum_feb10_xadc_hdmi/ip/spectrum_feb10_xadc_hdmi_processing_system7_0_0" --include "../../../../spectrum_analyzer_feb9.srcs/sources_1/bd/spectrum_feb10_xadc_hdmi/ipshared/85a3" \
+"../../../bd/spectrum_feb10_xadc_hdmi/ip/spectrum_feb10_xadc_hdmi_processing_system7_0_0/sim/spectrum_feb10_xadc_hdmi_processing_system7_0_0.v" \
+"../../../bd/spectrum_feb10_xadc_hdmi/ip/spectrum_feb10_xadc_hdmi_xadc_wiz_0_0/spectrum_feb10_xadc_hdmi_xadc_wiz_0_0.v" \
+"../../../bd/spectrum_feb10_xadc_hdmi/ip/spectrum_feb10_xadc_hdmi_clk_wiz_0_0/spectrum_feb10_xadc_hdmi_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/spectrum_feb10_xadc_hdmi/ip/spectrum_feb10_xadc_hdmi_clk_wiz_0_0/spectrum_feb10_xadc_hdmi_clk_wiz_0_0.v" \
+"../../../bd/spectrum_feb10_xadc_hdmi/ip/spectrum_feb10_xadc_hdmi_xbar_0/sim/spectrum_feb10_xadc_hdmi_xbar_0.v" \
+"../../../bd/spectrum_feb10_xadc_hdmi/ipshared/0e42/hdl/hdmi_full_gen_1_v1_0_S00_AXI.v" \
+"../../../bd/spectrum_feb10_xadc_hdmi/ipshared/0e42/hdl/hdmi_full_gen_1_v1_0.v" \
+"../../../bd/spectrum_feb10_xadc_hdmi/ip/spectrum_feb10_xadc_hdmi_hdmi_full_gen_1_0_0/sim/spectrum_feb10_xadc_hdmi_hdmi_full_gen_1_0_0.v" \
+"../../../bd/spectrum_feb10_xadc_hdmi/sim/spectrum_feb10_xadc_hdmi.v" \
+"../../../bd/spectrum_feb10_xadc_hdmi/ip/spectrum_feb10_xadc_hdmi_auto_pc_0/sim/spectrum_feb10_xadc_hdmi_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
